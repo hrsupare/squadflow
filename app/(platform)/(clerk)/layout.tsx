@@ -37,13 +37,10 @@ const ClerkLayout = ({ children }: { children: React.ReactNode }) => {
               <li>Collaborative Boards</li>
               <li>Efficient Workflow</li>
               <li>Offline Access</li>
-              <li>Integration with Popular Apps</li>
+              
             </ul>
 
-            {/* Action Button */}
-            <button className={`bg-green-500 text-white px-6 py-3 rounded-full hover:bg-green-600 transition duration-300 ease-in-out focus:outline-none focus:ring focus:border-green-300`}>
-              Learn More
-            </button>
+            
           </div>
         </div>
       </div>
