@@ -14,6 +14,7 @@ interface SidebarProps {
   storageKey?: string;
 }
 
+
 const Sidebar = ({ storageKey = "F-SIDEBAR-PRO" }: SidebarProps) => {
   const [expanded, setExpanded] = useLocalStorage<Record<string, any>>(
     storageKey,
